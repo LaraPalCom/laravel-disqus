@@ -5,19 +5,19 @@
  * http://disqus.com/api/
  *
  * @author		DISQUS <team@disqus.com>
- * @copyright	2007-2010 Big Head Labs
+ * @copyright           2007-2010 Big Head Labs
  * @link		http://disqus.com/
  * @package		disqusapi
  * @version		0.1.1
  *
  * $disqus = new DisqusAPI($secret_key)
  * $disqus->trends->listThreads()
- *
- */
-
-/*
+ * 
+ * **********************************************************
  * Plus modifications by Roumen Damianoff <roumen@dawebs.com>
- * $disqus->setSecure(false) // can be used to turn on/off SSL
+ * 
+ * $disqus->setSecure(false); can be used to turn on/off SSL
+ * 
  */
 
 if (!defined('DISQUS_API_HOST')) {
