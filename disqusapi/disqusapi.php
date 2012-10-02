@@ -10,14 +10,23 @@
  * @package		disqusapi
  * @version		0.1.1
  *
+ * Example:
+ *
  * $disqus = new DisqusAPI($secret_key)
  * $disqus->trends->listThreads()
- * 
- * **********************************************************
- * Plus modifications by Roumen Damianoff <roumen@dawebs.com>
- * 
+ *
+ * **********************************************************************
+ *
+ * Plus modifications made by Roumen Damianoff <roumen@dawebs.com>
+ *
+ * @link https://github.com/RoumenMe/disqus-php Roumen's disqus-php fork
+ * @link http://roumen.me/projects/laravel-disqus Laravel bundle project
+ *
+ * Important note:
+ *
  * $disqus->setSecure(false); can be used to turn on/off SSL
- * 
+ *
+ * **********************************************************************
  */
 
 if (!defined('DISQUS_API_HOST')) {
@@ -153,7 +162,7 @@ class DisqusAPI extends DisqusResource {
     public function setVersion($version) {
         $this->version = $version;
     }
-    
+
     public function setSecure($secure) {
         $this->secure = $secure;
     }
