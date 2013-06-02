@@ -1,6 +1,6 @@
 {
     "name": "roumen/disqus",
-    "description": "A Laravel 4 composer package for Disqus API.",
+    "description": "Disqus API package for Laravel 4. ",
     "authors": [
         {
             "name": "Roumen Damianoff",
