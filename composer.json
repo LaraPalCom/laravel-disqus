@@ -1,0 +1,25 @@
+{
+    "name": "roumen/disqus",
+    "description": "A Laravel 4 composer package for Disqus API.",
+    "authors": [
+        {
+            "name": "Roumen Damianoff",
+            "email": "roumen@dawebs.com",
+            "role": "Developer",
+            "homepage": "http://roumen.me/projects/laravel4-disqus"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Roumen\\Disqus": "src/"
+        },
+        "files": [
+            "src/Roumen/Disqus/disqusapi/disqusapi.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
