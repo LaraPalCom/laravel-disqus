@@ -1,6 +1,8 @@
 {
     "name": "roumen/disqus",
-    "description": "Disqus API package for Laravel 4. ",
+    "description": "Disqus API package for Laravel 4.",
+    "keywords": ["laravel", "disqus"],
+    "license": "Apache",
     "authors": [
         {
             "name": "Roumen Damianoff",
@@ -21,5 +23,5 @@
             "src/Roumen/Disqus/disqusapi/disqusapi.php"
         ]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }

@@ -1,5 +1,7 @@
 # [laravel4-disqus](http://roumen.me/projects/laravel4-disqus) package
 
+[![Latest Stable Version](https://poser.pugx.org/roumen/disqus/version.png)](https://packagist.org/packages/roumen/disqus) [![Total Downloads](https://poser.pugx.org/roumen/disqus/d/total.png)](https://packagist.org/packages/roumen/disqus)
+
 A Laravel 4 package for Disqus API.
 
 
