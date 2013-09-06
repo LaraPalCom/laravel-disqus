@@ -1,4 +1,4 @@
-# [laravel-disqus](http://roumen.me/projects/laravel-disqus) bundle
+# [laravel-disqus](http://roumen.it/projects/laravel-disqus) bundle
 
 A Laravel bundle for the DisqusAPI library.
 
@@ -14,7 +14,6 @@ then edit ``application/bundles.php`` to autoload disqus:
 ```php
 'disqus' => array('auto' => true)
 ```
-
 
 ## Example
 

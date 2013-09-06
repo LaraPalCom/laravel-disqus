@@ -5,7 +5,7 @@
  * http://disqus.com/api/
  *
  * @author		DISQUS <team@disqus.com>
- * @copyright           2007-2010 Big Head Labs
+ * @copyright   2007-2010 Big Head Labs
  * @link		http://disqus.com/
  * @package		disqusapi
  * @version		0.1.1
@@ -19,8 +19,8 @@
  *
  * Plus modifications made by Roumen Damianoff <roumen@dawebs.com>
  *
- * @link https://github.com/RoumenMe/disqus-php Roumen's disqus-php fork
- * @link http://roumen.me/projects/laravel-disqus Laravel bundle project
+ * @link https://github.com/RoumenDamianoff/disqus-php Roumen's disqus-php fork
+ * @link http://roumen.it/projects/laravel-disqus Laravel bundle project
  *
  * Important note:
  *
