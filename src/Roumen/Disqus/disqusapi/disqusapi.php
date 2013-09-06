@@ -19,7 +19,7 @@
  *
  * Plus modifications by Roumen Damianoff <roumen@dawebs.com>
  *
- * * @link http://roumen.me/projects/laravel4-disqus Laravel 4 package
+ * * @link http://roumen.it/projects/laravel4-disqus Laravel 4 package
  *
  * Important note:
  *
