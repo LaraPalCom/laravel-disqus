@@ -5,11 +5,11 @@ A Laravel bundle for the DisqusAPI library.
 
 ## Installation
 
-Install using the Artian CLI:
+Download the latest bundle from: https://github.com/RoumenDamianoff/laravel-disqus/archive/laravel3.zip
 
-	php artisan bundle:install disqus
+and extract the archive to your bundles folder.
 
-then edit ``application/bundles.php`` to autoload disqus:
+To autoload the bundle you need to edit your ``application/bundles.php`` end add:
 
 ```php
 'disqus' => array('auto' => true)
