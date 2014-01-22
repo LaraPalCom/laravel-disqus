@@ -1,6 +1,7 @@
 {
     "name": "roumen/disqus",
     "description": "Disqus API package for Laravel 4.",
+    "homepage": "http://roumen.it/projects/laravel-disqus",
     "keywords": ["laravel", "disqus"],
     "license": "Apache",
     "authors": [
@@ -8,7 +9,7 @@
             "name": "Roumen Damianoff",
             "email": "roumen@dawebs.com",
             "role": "Developer",
-            "homepage": "http://roumen.it/projects/laravel-disqus"
+            "homepage": "http://roumen.it"
         }
     ],
     "require": {
