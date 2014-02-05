@@ -9,7 +9,7 @@ Download the latest bundle from: https://github.com/RoumenDamianoff/laravel-disq
 
 and extract the archive to your bundles folder.
 
-To autoload the bundle you need to edit your ``application/bundles.php`` end add:
+To autoload the bundle you need to edit your ``application/bundles.php`` and add:
 
 ```php
 'disqus' => array('auto' => true)
