@@ -2,15 +2,26 @@
 
 [![Latest Stable Version](https://poser.pugx.org/roumen/disqus/version.png)](https://packagist.org/packages/roumen/disqus) [![Total Downloads](https://poser.pugx.org/roumen/disqus/d/total.png)](https://packagist.org/packages/roumen/disqus)
 
-A Laravel 4 package for Disqus API.
+A Laravel 5 package for Disqus API.
 
+## Notes
+
+Latest supported version for Laravel 4 is v0.1.1.3
+
+Branch dev-master is for development and is unstable
 
 ## Installation
 
-Add the following to your `composer.json` file :
+Run the following command and provide the latest stable version (e.g v1.1) :
+
+```bash
+composer require roumen/disqus
+```
+
+or add the following to your `composer.json` file :
 
 ```json
-"roumen/disqus": "dev-master"
+"roumen/disqus": "~1"
 ```
 
 Then register this service provider with Laravel :

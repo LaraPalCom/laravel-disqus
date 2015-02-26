@@ -18,7 +18,7 @@ class DisqusServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('roumen/disqus');
+		//
 	}
 
 	/**
@@ -38,7 +38,7 @@ class DisqusServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array();
+		return ['disqus'];
 	}
 
 }
