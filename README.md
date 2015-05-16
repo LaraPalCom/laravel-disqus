@@ -4,6 +4,7 @@
 
 A Laravel 5 package for Disqus API.
 
+
 ## Notes
 
 Latest supported version for Laravel 5 is v1.* (e.g v1.2)
@@ -11,6 +12,7 @@ Latest supported version for Laravel 5 is v1.* (e.g v1.2)
 Latest supported version for Laravel 4 is v0.1.1.3
 
 Branch dev-master is for development and is unstable
+
 
 ## Installation
 
@@ -46,13 +48,18 @@ $disqus->trends->listThreads();
 
 Documentation on all methods, as well as general API usage can be found at http://disqus.com/api/
 
+
 ## Examples
 
 [How to add your latest comments from disqus to your local DB](https://github.com/RoumenDamianoff/laravel-disqus/wiki/Sync-comments)
 
-## About DisqusAPI library
+
+## About disqus-php library
 
 Author:		DISQUS <team@disqus.com>
+
 Copyright:	2007-2010 Big Head Labs
+
 License:    Apache version 2.0 (see disqusapi/LICENSE for more information)
+
 Link:		http://disqus.com/
