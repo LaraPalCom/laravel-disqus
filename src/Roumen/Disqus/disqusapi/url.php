@@ -81,6 +81,14 @@ function _dsq_curl_urlopen($url, $postdata, &$response, $file_name, $file_field)
     curl_setopt_array($c, $c_options);
 
     $response['data'] = curl_exec($c);
+
+    $errno = curl_errno($c);
+    // CURLE_SSL_CACERT || CURLE_SSL_CACERT_BADFILE
+    if ($errno == 60 || $errno == 77) {
+        curl_setopt($c, CURLOPT_CAINFO, dirname(__FILE__) . DIRECTORY_SEPARATOR . 'cacert.pem');
+        $response['data'] = curl_exec($c);
+    }
+
     $response['code'] = curl_getinfo($c, CURLINFO_HTTP_CODE);
 }
 
@@ -197,7 +205,7 @@ function _dsq_fopen_urlopen($url, $postdata, &$response, $file_name, $file_field
             ));
         }
     }
-    
+
 
     ini_set('user_agent', USER_AGENT);
     $ctx = stream_context_create($params);
@@ -259,7 +267,7 @@ function dsq_urlopen($url, $postdata=false, $file=false) {
              foreach ($curl_options as $option => $value) {
                  if (!curl_setopt($ch, $option, $value)) {
                      return false;
-                 } 
+                 }
              }
              return true;
          }

@@ -20,6 +20,7 @@
  * Plus modifications by Roumen Damianoff <roumen@dawebs.com>
  *
  * * @link http://roumen.it/projects/laravel-disqus Laravel package
+ * * @version 1.2
  *
  * Important note:
  *
@@ -123,7 +124,6 @@ class DisqusResource {
                 $path .= '?'.dsq_get_query_string($kwargs);
             }
         }
-
 
         $response = dsq_urlopen($url.$path, $post_data);
 
