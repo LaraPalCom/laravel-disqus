@@ -1,6 +1,6 @@
 {
     "name": "roumen/disqus",
-    "description": "Disqus API package for Laravel 5.",
+    "description": "Disqus API package for Laravel.",
     "homepage": "http://roumen.it/projects/laravel-disqus",
     "keywords": ["laravel", "disqus"],
     "license": "Apache",
