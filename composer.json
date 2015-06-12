@@ -1,7 +1,7 @@
 {
     "name": "roumen/disqus",
     "description": "Disqus API package for Laravel.",
-    "homepage": "http://roumen.it/projects/laravel-disqus",
+    "homepage": "https://roumen.it/projects/laravel-disqus",
     "keywords": ["laravel", "disqus"],
     "license": "Apache",
     "authors": [
@@ -13,8 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "~4|~5"
+        "php": ">=5.5.9",
+        "illuminate/support": "~5"
     },
     "autoload": {
         "psr-0": {
