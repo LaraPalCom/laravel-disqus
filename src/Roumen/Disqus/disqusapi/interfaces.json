@@ -1,4 +1,38 @@
 {
+  "organizations": {
+    "listAdmins": {
+      "required": [
+        "organization"
+      ],
+      "method": "GET",
+      "formats": [
+        "json",
+        "jsonp"
+      ]
+    },
+    "addAdmin": {
+      "required": [
+        "organization",
+        "user"
+      ],
+      "method": "POST",
+      "formats": [
+        "json",
+        "jsonp"
+      ]
+    },
+    "removeAdmin": {
+      "required": [
+        "organization",
+        "user"
+      ],
+      "method": "POST",
+      "formats": [
+        "json",
+        "jsonp"
+      ]
+    }
+  },
   "reactions": {
     "restore": {
       "required": [
