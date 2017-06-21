@@ -24,5 +24,12 @@
             "src/Roumen/Disqus/disqusapi/disqusapi.php"
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roumen\\Disqus\\DisqusServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
